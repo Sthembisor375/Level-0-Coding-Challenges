@@ -5,4 +5,4 @@ function triangleArea(a, b, c) {
     console.log(area);
 }
 
-triangleArea(5, 5, 2);
+triangleArea();

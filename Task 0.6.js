@@ -14,11 +14,11 @@ function maximumNumber(a, b, c) {
     console.log(maxNumber);
 }
 
-maximumNumber(3, 5, 959);
+maximumNumber();
 
 // Code for indentifying the highest number in an open list with variables changed.
 
-function maximumOpen(...openList) {
+function maximumNumberOpenList(...openList) {
 
     var myArrayOpen = [...openList];
     var maxNumberOpen = myArrayOpen[0];
@@ -32,4 +32,4 @@ function maximumOpen(...openList) {
     console.log(maxNumberOpen);
 }
 
-maximumOpen(18, 58, 95, 75, 150);
+maximumNumberOpenList();
