@@ -1,6 +1,6 @@
-//Function that identifies and prints common letters/characters in two strings
-
 function sharedCharacterIdentifier(firstWord, secondWord) {
+
+    var matchingCharacters = [];
 
     if (firstWord.length > secondWord.length) {
 
@@ -9,7 +9,7 @@ function sharedCharacterIdentifier(firstWord, secondWord) {
             var matches = firstWord.includes(secondWord[i]);
 
             if (matches == true) {
-                console.log(secondWord[i])
+                matchingCharacters.push(" " + secondWord[i])
             }
 
         }
@@ -20,12 +20,15 @@ function sharedCharacterIdentifier(firstWord, secondWord) {
             var matches = secondWord.includes(firstWord[i]);
 
             if (matches == true) {
-                console.log(firstWord[i])
+                matchingCharacters.push(" " + firstWord[i])
             }
 
         }
 
     }
+
+    console.log("Common letters: " + matchingCharacters)
+
 
 
 }

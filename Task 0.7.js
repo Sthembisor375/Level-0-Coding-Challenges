@@ -1,17 +1,15 @@
-// Function to convert Fahrenheit to Celsius
-function tempConversionCelsius(temperatureFahrenheit) {
+function fahrenheitToCelsius(temperatureFahrenheit) {
 
-    temperatureCelsius = (temperatureFahrenheit - 32) / (9 / 5);
+    var temperatureCelsius = (temperatureFahrenheit - 32) / (9 / 5);
     console.log(temperatureCelsius + "°C");
 }
 
-tempConversionCelsius();
+fahrenheitToCelsius();
 
-// Function to convert Celsius to Fahrenheit
-function tempConversionFahrenheit(temperatureCelsius) {
+function celciusToFahrenheit(temperatureCelsius) {
 
-    temperatureFahrenheit = (temperatureCelsius * (9 / 5)) + 32;
+    var temperatureFahrenheit = (temperatureCelsius * (9 / 5)) + 32;
     console.log(temperatureFahrenheit + "°F");
 }
 
-tempConversionFahrenheit();
+celciusToFahrenheit();

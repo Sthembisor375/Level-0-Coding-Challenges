@@ -1,32 +1,26 @@
-// Function for converting numbers to hours and minutes.
-
 function timeConversion(minutes) {
 
-    unroundedHours = minutes / 60;                        //Converts minutes to hours
-    roundedHours = Math.floor(unroundedHours);
+    var unroundedHours = minutes / 60;
+    var roundedHours = Math.floor(unroundedHours);
 
-    decimalMinutes = unroundedHours - roundedHours;       //Converts decimal to minutes
-    roundedMinutes = Math.round(decimalMinutes * 60);
-
-    separator = ", ";
+    var decimalMinutes = unroundedHours - roundedHours;
+    var roundedMinutes = Math.round(decimalMinutes * 60);
 
     if (roundedHours == 0) {
-        hourString = "";
-        roundedHours = "";
-        separator = "";
+        var hourString = " hours";
+        roundedHours = 0;
     } else if (roundedHours == 1) {
-        hourString = " hour";
-    } else { hourString = " hours" };
+        var hourString = " hour";
+    } else { var hourString = " hours" };
 
     if (roundedMinutes == 0) {
-        minuteString = "";
-        roundedMinutes = "";
-        separator = "";
+        var minuteString = " minutes";
+        roundedMinutes = 0;
     } else if (roundedMinutes == 1) {
-        minuteString = " minute";
-    } else { minuteString = " minutes" };
+        var minuteString = " minute";
+    } else { var minuteString = " minutes" };
 
-    console.log(roundedHours + hourString + separator + roundedMinutes + minuteString);
+    console.log(roundedHours + hourString + ", " + roundedMinutes + minuteString);
 }
 
 timeConversion()

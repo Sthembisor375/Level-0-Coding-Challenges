@@ -1,5 +1,3 @@
-// Code for identifying the highest number in a 3 number list.
-
 function maximumNumber(a, b, c) {
 
     var myArray = [a, b, c];
@@ -15,8 +13,6 @@ function maximumNumber(a, b, c) {
 }
 
 maximumNumber();
-
-// Code for indentifying the highest number in an open list with variables changed.
 
 function maximumNumberOpenList(...openList) {
 

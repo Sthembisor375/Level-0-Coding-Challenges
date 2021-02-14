@@ -1,5 +1,3 @@
-// Function that identifies and prints the vowels in a string
-
 function vowelIdentifier(word) {
 
     var vowels = "aeiouAEIOU";
