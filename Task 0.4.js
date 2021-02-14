@@ -14,4 +14,4 @@ function evenOrOdd(numberInput) {
     }
 }
 
-evenOrOdd(0.2);
+evenOrOdd();
