@@ -12,7 +12,7 @@ function maximumNumber(a, b, c) {
     console.log(maxNumber);
 }
 
-maximumNumber();
+maximumNumber(2, 4, 6);
 
 function maximumNumberOpenList(...openList) {
 
@@ -28,4 +28,4 @@ function maximumNumberOpenList(...openList) {
     console.log(maxNumberOpen);
 }
 
-maximumNumberOpenList();
+maximumNumberOpenList(2, 4, 6, 8, 10, 12);

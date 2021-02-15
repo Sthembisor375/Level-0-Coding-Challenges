@@ -4,7 +4,7 @@ function fahrenheitToCelsius(temperatureFahrenheit) {
     console.log(temperatureCelsius + "°C");
 }
 
-fahrenheitToCelsius();
+fahrenheitToCelsius(50);
 
 function celciusToFahrenheit(temperatureCelsius) {
 
@@ -12,4 +12,4 @@ function celciusToFahrenheit(temperatureCelsius) {
     console.log(temperatureFahrenheit + "°F");
 }
 
-celciusToFahrenheit();
+celciusToFahrenheit(10);

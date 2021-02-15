@@ -27,10 +27,10 @@ function sharedCharacterIdentifier(firstWord, secondWord) {
 
     }
 
-    console.log("Common letters: " + matchingCharacters)
+    var matchingCharacters = Array.from(new Set(matchingCharacters)).join(',');
 
-
+    console.log("Common letters:" + matchingCharacters)
 
 }
 
-sharedCharacterIdentifier();
+sharedCharacterIdentifier("handggglove", "ggglove");

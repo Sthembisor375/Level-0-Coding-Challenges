@@ -15,4 +15,4 @@ function vowelIdentifier(word) {
 
 }
 
-vowelIdentifier();
+vowelIdentifier("Accomodation");

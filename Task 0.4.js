@@ -12,4 +12,4 @@ function evenOrOdd(numberInput) {
 
 }
 
-evenOrOdd();
+evenOrOdd(8);

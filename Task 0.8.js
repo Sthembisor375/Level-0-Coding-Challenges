@@ -23,4 +23,4 @@ function timeConversion(minutes) {
     console.log(roundedHours + hourString + ", " + roundedMinutes + minuteString);
 }
 
-timeConversion()
+timeConversion(75)
